@@ -6,14 +6,7 @@ namespace ChallengesWithTestsMark8
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
-            if(num1 == num2)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return (num1 == num2);
         }
 
         public double Subtract(double minuend, double subtrahend)
@@ -23,8 +16,7 @@ namespace ChallengesWithTestsMark8
 
         public int Add(int number1, int number2)
         {
-            int answer = number1 + number2;
-            return answer;
+            return number1 + number2;
         }
 
         public int GetSmallestNumber(int number1, int number2)
